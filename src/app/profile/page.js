@@ -36,7 +36,7 @@ export default function Profile() {
           </div>
         </div>
         <div className="flex justify-center items-center py-10 space-x-10">
-          <a href="">
+          <a href="https://mail.google.com/mail/u/0/#search/keysa.anadea%40gmail.com?compose=new">
             <img className="w-10 hover:scale-150" src="/img/logos_google-gmail.png"></img>
           </a>
           <a href="https://www.instagram.com/keysanadea/">

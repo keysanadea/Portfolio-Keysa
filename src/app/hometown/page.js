@@ -39,11 +39,18 @@ export default function Hometown() {
               height={480}
             ></iframe>
           </div>
+          <div className="animate-bounce w-50 h-100  ">
+            <img src="/img/downicon.png"></img>
         </div>
+        </div>
+        
       </div>
       <div className="bg-[url('/img/hometown_bg_1.png')] h-fit bg-cover md:h-screen">
         <div className="flex flex-col h-fit py-10 space-y-10 md:h-full md:flex-row md:justify-center md:items-center lg:space-x-12">
-          <div className="lg:flex items-center mx-auto w-[30%] lg:w-[30%] md:p-5 md:hidden lg:mx-0">
+        <div className="animate-bounce w-50 h-100 ">
+            <img src="/img/downicon.png"></img>
+          </div>
+          <div className="lg:flex items-center mx-auto w-[30%] lg:w-[30%] md:p-5 md:hidden lg:mx-0 hover:scale-110">
             <img src="/img/kuliner_img.png"></img>
           </div>
           <div className="flex flex-col h-fit w-[80%] lg:w-[40%] md:mx-auto swiper">
@@ -92,11 +99,11 @@ export default function Hometown() {
       </div>
       <div className="bg-[url('/img/hometown_bg.png')] h-fit bg-cover md:h-screen">
         <div className="flex flex-col h-fit py-10 space-y-10 md:h-full md:flex-row md:justify-center md:items-center lg:space-x-12">
-          <div className="flex-col w-[30%] m-auto space-y-10 md:hidden">
+          <div className="flex-col w-[30%] m-auto space-y-10 md:hidden hover:scale-110">
             <img src="/img/tourist_img.png"></img>
           </div>
           <div className="flex flex-col h-fit w-[80%] lg:w-[40%] swiper">
-            <h1 className="flex font-bold text-3xl text-center justify-center p-5 md:justify-start">
+            <h1 className="flex font-bold text-3xl text-center justify-center p-5 md:justify-start ">
               Wisata di Bojonegoro
             </h1>
             <Swiper
@@ -140,7 +147,7 @@ export default function Hometown() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="hidden lg:flex md:w-[30%]">
+          <div className="hidden lg:flex md:w-[30%] hover:scale-110">
             <img src="/img/tourist_img.png"></img>
           </div>
         </div>
