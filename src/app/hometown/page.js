@@ -39,17 +39,12 @@ export default function Hometown() {
               height={480}
             ></iframe>
           </div>
-          <div className="animate-bounce w-50 h-100  ">
-            <img src="/img/downicon.png"></img>
-        </div>
         </div>
         
       </div>
       <div className="bg-[url('/img/hometown_bg_1.png')] h-fit bg-cover md:h-screen">
         <div className="flex flex-col h-fit py-10 space-y-10 md:h-full md:flex-row md:justify-center md:items-center lg:space-x-12">
-        <div className="animate-bounce w-50 h-100 ">
-            <img src="/img/downicon.png"></img>
-          </div>
+        
           <div className="lg:flex items-center mx-auto w-[30%] lg:w-[30%] md:p-5 md:hidden lg:mx-0 hover:scale-110">
             <img src="/img/kuliner_img.png"></img>
           </div>

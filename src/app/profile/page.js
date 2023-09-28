@@ -5,9 +5,9 @@ export default function Profile() {
     <div className="bg-[url('/img/profile_bg.png')] bg-cover min-h-screen">
       <Navbar></Navbar>
       <div className="flex flex-col justify-center px-10">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center hover:scale-110">
           <img
-            src="/img/self_img.png"
+            src="/img/self_img2.png"
             width={320}
             height={320}
             className="drop-shadow-[0_10px_10px_rgba(0,0,0,0.8)] p-10"

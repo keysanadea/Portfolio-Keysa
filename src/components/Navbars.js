@@ -30,7 +30,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="invisible md:visible md:mr-5">
-          <img src="/img/self_img.png" width={40} height={40} alt="Self image" className="drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] rounded-full"></img>
+          <img src="/img/self_img2.png" width={40} height={40} alt="Self image" className="drop-shadow-[0_5px_5px_rgba(0,0,0,0.5)] rounded-full"></img>
         </div>
       </div>
       <div className={`${menuOpen ? 'visible' : 'hidden'} flex flex-col md:hidden`}>
