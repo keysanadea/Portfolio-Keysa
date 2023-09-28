@@ -37,13 +37,13 @@ export default function Profile() {
         </div>
         <div className="flex justify-center items-center py-10 space-x-10">
           <a href="">
-            <img className="w-10" src="/img/logos_google-gmail.png"></img>
+            <img className="w-10 hover:scale-150" src="/img/logos_google-gmail.png"></img>
           </a>
           <a href="https://www.instagram.com/keysanadea/">
-            <img className="w-10" src="/img/skill-icons_instagram.png"></img>
+            <img className="w-10 hover:scale-150" src="/img/skill-icons_instagram.png"></img>
           </a>
           <a href="https://www.linkedin.com/in/keysaanadea/">
-            <img className="w-10" src="/img/skill-icons_linkedin.png"></img>
+            <img className="w-10 hover:scale-150" src="/img/skill-icons_linkedin.png"></img>
           </a>
         </div>
       </div>

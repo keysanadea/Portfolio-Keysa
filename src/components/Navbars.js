@@ -20,13 +20,13 @@ export default function Navbar() {
         </button>
         <div className="flex invisible md:visible md:justify-center md:space-x-14 lg:space-x-36">
           <Link href="/">
-            <button href="/" className="font-bold text-2xl">Home</button>
+            <button href="/" className="font-bold hover:scale-150 text-2xl">Home</button>
           </Link>
           <Link href="hometown">
-            <button className="font-bold text-2xl">Hometown</button>
+            <button className="font-bold hover:scale-150 text-2xl">Hometown</button>
           </Link>
           <Link href="profile">
-            <button className="font-bold text-2xl">Profile</button>
+            <button className="font-bold hover:scale-150 text-2xl">Profile</button>
           </Link>
         </div>
         <div className="invisible md:visible md:mr-5">
